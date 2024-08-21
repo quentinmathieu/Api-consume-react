@@ -6,7 +6,7 @@ function ProductComponent(props){
   try{
     return (
       <a href={`/details/${props.product.id}`}>
-        <Card style={{ width: '18rem'}}>
+        <Card style={{ width: '18rem'}} className='mx-auto'>
           <Card.Body>
             <Card.Title>{props.product.name}</Card.Title>
             <Card.Subtitle>{props.product.category.name}</Card.Subtitle>
